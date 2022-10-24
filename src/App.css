@@ -91,6 +91,7 @@ main {
   max-height: 5px;
 }
 .form--button {
+
   grid-column: 1 / 1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
@@ -98,8 +99,13 @@ main {
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
   cursor: pointer;
-}
+  width: 480px;
+  font-size: 20px;
 
+}
+.form--title{
+
+}
 @media only screen and (min-width: 1024px) {
   .main--content header  {
     display:flex;

@@ -111,11 +111,11 @@ export default function Form(){
                     name="topText" 
                     value={itemTitle}
                 /> 
-                <button 
-                    className="form--button" 
-                    type="button" 
-                    >Agregar
-                </button>       
+                <div className="form--button" >
+                  <span>Title</span>  
+                  <span>Price</span>  
+                  <span>Quantity</span>  
+                 </div>       
             </div>
             {(items.length > 0 && blured===false )&& <SuggestionsList onSelect={SelectItem} suggestions={items} />}
 
